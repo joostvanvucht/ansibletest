@@ -1,0 +1,8 @@
+- hosts: webservers
+  
+  tasks:
+  
+  - name: create helloworld file
+  
+    file: path=/tmp/helloworld
+
